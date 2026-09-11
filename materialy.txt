@@ -1,0 +1,10 @@
+Polecenia SQL:
+1. logowanie -> mysql -u root -p (hasło jeśli jest)
+2. Pokazanie baz danych -> show databases;
+3. Tworzenie baz -> create database (nazwa);
+4. Wybranie bazy -> use (nazwa bazy);
+5. Tworzenie tabeli -> create table (nazwa tabeli np. adresy);
+6. Pokazywanie zawartości tabeli -> describe (nazwa tabeli np. adresy);
+7. Usuwanie tabeli -> drop table (nazwa tabeli np. adresy);
+
+https://www.youtube.com/watch?v=99JAI24Zd24
