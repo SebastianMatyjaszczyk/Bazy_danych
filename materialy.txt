@@ -7,4 +7,15 @@ Polecenia SQL:
 6. Pokazywanie zawartości tabeli -> describe (nazwa tabeli np. adresy);
 7. Usuwanie tabeli -> drop table (nazwa tabeli np. adresy);
 
+Zapytania do bazy SQL:
+SELECT - Wybierz
+* - Wszystko z tabeli
+FROM - Z
+WHERE - Gdzie
+ORDER BY - Porządek
+ASC - Rosnąco
+DESC - Malejąco
+BETWEEN - Pomiędzy
+LIKE - Podobny
+
 https://www.youtube.com/watch?v=99JAI24Zd24
