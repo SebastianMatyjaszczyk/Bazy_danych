@@ -8,14 +8,20 @@ Polecenia SQL:
 7. Usuwanie tabeli -> drop table (nazwa tabeli np. adresy);
 
 Zapytania do bazy SQL:
-SELECT - Wybierz
-* - Wszystko z tabeli
-FROM - Z
-WHERE - Gdzie
-ORDER BY - Porządek
-ASC - Rosnąco
-DESC - Malejąco
-BETWEEN - Pomiędzy
-LIKE - Podobny
+SELECT -> Wybierz
+* -> Wszystko z tabeli
+FROM -> Z
+WHERE -> Gdzie SELECT * FROM 4bgr1.auto WHERE paliwo="D";
+OR i AND -> Spójniki SELECT * FROM 4bgr1.auto WHERE paliwo="D" AND typ="kombi" AND kolor="zielony" AND rocznik < 2004;
+ORDER BY -> Porządek SELECT * FROM `auto` order by cena desc limit 3;
+ASC -> Rosnąco
+DESC -> Malejąco
+BETWEEN -> Pomiędzy
+LIKE -> Podobny
+LIMIT -> Pokazanie ilości rekordów w tabeli SELECT * FROM 4bgr1.auto limit 200;
 
-https://www.youtube.com/watch?v=99JAI24Zd24
+
+
+
+
+http://zs2krasnystaw.edu.pl/dla_ucznia/kurs_mysql/k_4_0_0.php Głowacki bazy danych
