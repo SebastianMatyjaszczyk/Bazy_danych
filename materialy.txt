@@ -16,12 +16,20 @@ OR i AND -> Spójniki SELECT * FROM 4bgr1.auto WHERE paliwo="D" AND typ="kombi" 
 ORDER BY -> Porządek SELECT * FROM `auto` order by cena desc limit 3;
 ASC -> Rosnąco
 DESC -> Malejąco
-BETWEEN -> Pomiędzy
+BETWEEN -> Pomiędzy (klauzula) można używać też na string SELECT * FROM `auto` where cena BETWEEN 5000 and 10000;
+NOT BETWEEN -> Nie pomiędzy SELECT * FROM `auto` where cena not BETWEEN 10000 and 35000;
 LIKE -> Podobny
 LIMIT -> Pokazanie ilości rekordów w tabeli SELECT * FROM 4bgr1.auto limit 200;
 
+Operatory:
+<> nierówny SELECT * FROM `auto` where cena <> 43000;
+= równy
+mniejszy <
+większy >
+mniejszy bądź równy <= SELECT * FROM `auto` where cena >= 40000 AND cena <= 50000;
+większy bądź równy >=
 
-
+*/ tekst */ ; -> komentarz
 
 
 http://zs2krasnystaw.edu.pl/dla_ucznia/kurs_mysql/k_4_0_0.php Głowacki bazy danych
