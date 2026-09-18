@@ -20,6 +20,12 @@ BETWEEN -> Pomiędzy (klauzula) można używać też na string SELECT * FROM `au
 NOT BETWEEN -> Nie pomiędzy SELECT * FROM `auto` where cena not BETWEEN 10000 and 35000;
 LIKE -> Podobny
 LIMIT -> Pokazanie ilości rekordów w tabeli SELECT * FROM 4bgr1.auto limit 200;
+INSERT INTO -> Wstawianie do tabeli INSERT INTO auto (kolor, typ) VALUES ("czerwony","test");
+UPDATE -> aktualizacja danych w tabeli update auto set kolor="niebieski" where auto_id=4; oraz przykład z podnoszeniem ceny UPDATE auto set cena = cena * 1.5;
+DELETE FROM -> Kasuje rekord DELETE FROM auto where auto_id = 1;
+
+
+
 
 Operatory:
 <> nierówny SELECT * FROM `auto` where cena <> 43000;
