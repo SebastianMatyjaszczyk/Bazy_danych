@@ -37,5 +37,13 @@ większy bądź równy >=
 
 */ tekst */ ; -> komentarz
 
+Przykłady z funkcjami agregującymi COUNT, MIN, MAX, AVG, SUM
+
+SELECT COUNT(*) FROM auto where cena > 30000;
+SELECT min(data_urodzenia) as wiek from uczniowie;
+SELECT max(data_urodzenia) as wiek from uczniowie;
+SELECT sum(cena) as calkowitawartosc FROM auto;
+SELECT sum(cena) as calkowitawartosc FROM auto;
+
 
 http://zs2krasnystaw.edu.pl/dla_ucznia/kurs_mysql/k_4_0_0.php Głowacki bazy danych
