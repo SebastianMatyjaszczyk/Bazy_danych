@@ -1,13 +1,33 @@
-Polecenia SQL:
-1. logowanie -> mysql -u root -p (hasło jeśli jest)
+Podstawowe polecenia SQL;
+
+1. logowanie -> mysql -u root -p (hasło jeśli jest) mysql -u root --password=hasło
 2. Pokazanie baz danych -> show databases;
 3. Tworzenie baz -> create database (nazwa);
 4. Wybranie bazy -> use (nazwa bazy);
 5. Tworzenie tabeli -> create table (nazwa tabeli np. adresy);
 6. Pokazywanie zawartości tabeli -> describe (nazwa tabeli np. adresy);
 7. Usuwanie tabeli -> drop table (nazwa tabeli np. adresy);
+8. Wyłączenie serwera mysql -> mysqladmin -u root shutdown
+9. Pokazanie tabel w bazie -> show tables;
 
-Zapytania do bazy SQL:
+Zaawansowane polecenia SQL;
+
+10. Uruchomienie mysql jako samodzielnej aplikacji -> mysqld --console
+11. Zatrzymanie usługi -> net stop nazwa_usługi
+12. Kończenie połączenia z serwerem -> quit
+13. Usuwanie bazy -> Drop database nazwa_bazy;
+14. Logowanie do serwera z wyborem bazy -> mysql -u root -phasło nazwa_bazy
+15. Stworzenie użytkownika bazy danych -> CREATE USER sebastian identified by 'kalafior';
+16. Usuwanie użytkownika, użytkowników -> DROP USER sebastian, stachu;
+17. Zmiana nazwy użytkownika -> RENAME nazwa TO nowa_nazwa;
+18. Zmiana hasła do konta -> SET PASSWORD FOR nazwa = PASSWORD('nowe_hasło');
+
+NADAWANIE PRAW DO KONTA UŻYTKOWNIKA;
+
+Prawo do logowania do serwera -> GRANT usage ON * TO nazwa_użytkownika;
+2 sposób na zmianę hasła -> GRANT usage ON * TO mietek identified by '1234';
+
+Zapytania do bazy SQL;
 SELECT -> Wybierz
 * -> Wszystko z tabeli
 FROM -> Z
