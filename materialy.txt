@@ -21,6 +21,10 @@ Zaawansowane polecenia SQL;
 16. Usuwanie użytkownika, użytkowników -> DROP USER sebastian, stachu;
 17. Zmiana nazwy użytkownika -> RENAME nazwa TO nowa_nazwa;
 18. Zmiana hasła do konta -> SET PASSWORD FOR nazwa = PASSWORD('nowe_hasło');
+19. Pobieranie wierszy, od konkretnej pozycji -> SELECT * FROM nazwa_tabeli ORDER BY nazwisko LIMIT 4,3; od 4 pomija, wyświetla 5 wiersz do 7
+20. Usunięcie wszystkich danych z tabeli -> Delete from nazwa_tabeli;
+21. Usuwanie konkretnych wierszy -> Delete from nazwa_tabeli where id IN (3, 5, 7);
+22. Usuwanie wierszy z określonego przedziału -> Delete from nazwa_tabeli where id Between 1 and 10;
 
 NADAWANIE PRAW DO KONTA UŻYTKOWNIKA;
 
