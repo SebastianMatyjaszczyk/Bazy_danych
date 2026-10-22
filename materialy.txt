@@ -16,7 +16,7 @@ Zaawansowane polecenia SQL;
 11. Zatrzymanie usługi -> net stop nazwa_usługi
 12. Kończenie połączenia z serwerem -> quit
 13. Usuwanie bazy -> Drop database nazwa_bazy;
-14. Logowanie do serwera z wyborem bazy -> mysql -u root -phasło nazwa_bazy
+14. Logowanie do serwera z wyborem bazy -> mysql -u root -phasło nazwa_bazy;
 15. Stworzenie użytkownika bazy danych -> CREATE USER sebastian identified by 'kalafior';
 16. Usuwanie użytkownika, użytkowników -> DROP USER sebastian, stachu;
 17. Zmiana nazwy użytkownika -> RENAME nazwa TO nowa_nazwa;
@@ -69,5 +69,9 @@ SELECT max(data_urodzenia) as wiek from uczniowie;
 SELECT sum(cena) as calkowitawartosc FROM auto;
 SELECT sum(cena) as calkowitawartosc FROM auto;
 
+Funkcje;
+
+CURDATE() to wbudowana funkcja w języku SQL (głównie w MySQL i MariaDB), która zwraca bieżącą datę z serwera bazodanowego.
+TIMESTAMPDIFF to funkcja SQL zwracająca różnicę między dwiema wartościami daty/czasu wyrażoną w określonej jednostce czasu (np.  sekundach, dniach, miesiącach).
 
 http://zs2krasnystaw.edu.pl/dla_ucznia/kurs_mysql/k_4_0_0.php Głowacki bazy danych
