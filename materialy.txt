@@ -76,3 +76,4 @@ TIMESTAMPDIFF to funkcja SQL zwracająca różnicę między dwiema wartościami 
 
 http://zs2krasnystaw.edu.pl/dla_ucznia/kurs_mysql/k_4_0_0.php Głowacki bazy danych
 https://github.com/holubowicz/inf03
+uw-team.org
