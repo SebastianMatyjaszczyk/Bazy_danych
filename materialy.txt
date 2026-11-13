@@ -74,6 +74,19 @@ Funkcje;
 CURDATE() to wbudowana funkcja w języku SQL (głównie w MySQL i MariaDB), która zwraca bieżącą datę z serwera bazodanowego.
 TIMESTAMPDIFF to funkcja SQL zwracająca różnicę między dwiema wartościami daty/czasu wyrażoną w określonej jednostce czasu (np.  sekundach, dniach, miesiącach).
 
+Łączenie tabel JOIN ON
+SELECT 
+    imie, 
+    nazwisko, 
+    dzial, 
+    pesel.pesel, 
+    adres.adres, 
+    szkola.szkola
+FROM uczniowie
+JOIN pesel ON uczniowie.pesel = pesel.id
+JOIN adres ON uczniowie.adres = adres.id
+JOIN szkola ON uczniowie.szkola = szkola.id;
+
 http://zs2krasnystaw.edu.pl/dla_ucznia/kurs_mysql/k_4_0_0.php Głowacki bazy danych
 https://github.com/holubowicz/inf03
 uw-team.org
