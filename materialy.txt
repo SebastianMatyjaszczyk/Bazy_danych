@@ -106,6 +106,9 @@ CSS support
 HTML preview
 Open php/html/js in browser
 
+https://chomikuj.pl/frodo107
+https://chomikuj.pl/wojownik24
+https://www.w3schools.com/js/default.asp
 docs.emmet.io/cheat-sheet
 http://zs2krasnystaw.edu.pl/dla_ucznia/kurs_mysql/k_4_0_0.php Głowacki bazy danych
 https://github.com/holubowicz/inf03
