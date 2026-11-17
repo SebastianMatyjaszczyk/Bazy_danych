@@ -101,7 +101,12 @@ JOIN adres ON uczniowie.adres = adres.id
 JOIN szkola ON uczniowie.szkola = szkola.id
 WHERE szkola.szkola='liceum';
 
+Rozszerzenia vs code
+CSS support
+HTML preview
+Open php/html/js in browser
 
+docs.emmet.io/cheat-sheet
 http://zs2krasnystaw.edu.pl/dla_ucznia/kurs_mysql/k_4_0_0.php Głowacki bazy danych
 https://github.com/holubowicz/inf03
 uw-team.org
